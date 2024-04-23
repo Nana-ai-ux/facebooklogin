@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.facebooklogin_div{
+    background-color: #F1F2F6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 350px;
+    height: max-content;
+    padding: 10px 30px;
+}
+.facebooklogin_div h1{
+    text-transform: lowercase;
+    color: #1B76F2;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    font-weight: 800;
+}
+.facebookform{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 2px 5px -0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.facebookform h2{
+    text-align: center;
+    margin: 8px 0px;
+}
+
+.facebookform input{
+    margin: 10px 0px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.facebookform input::placeholder{
+    font-size: 20px;
+}
+.facebook_btn{
+    background-color: #1B76F2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forgetpassword {
+    text-align: center;
+}
+.forgetpassword a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.ordiv{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.ordiv p::after{
+    content: " -------------------";
+}
+
+.ordiv p::before{
+    content: "------------------- ";
+}
+
+.createacount{
+    text-align: center;
+    background-color: #42B72A;
+    padding: 15px;
+    border-radius: 10px;
+}
+.createacount a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
